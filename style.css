@@ -1,0 +1,81 @@
+body {
+    background: #eef6fc;
+    padding: 20px;
+}
+*{
+    font-family: Lucida Console,Georgia,'Roboto', sans-serif;
+    font-size: 20px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button,select,a {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+input[type="text"],input[type="password"] {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    height: 40px;
+}
+body{
+    background-image: url("cruise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search{
+    height: 15px;
+}
+.search_button{
+    height: 15px;
+}
+.search-box{
+    margin-left: 1050px;
+}
+.search-box a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin-top: 600px;
+    margin-left: 1850px;
+}
+footer button{
+    background-color: #f49c60;
+}
+footer button:hover{
+    background-color: #eef6fc;
+}
+.main{
+    margin-top: 130px;
+    margin-left:50px;
+    align-items: center;
+    font-size: 100px;
+    font-family: Lucida Handwriting;
+}
+.login{
+    margin-left: 1400px;
+}
+.login_form{
+  margin-left: 650px;
+  width: 50%;
+  margin-top: 280px;
+  padding: 10px;
+}
+button:hover{
+    background-color: #f49c60;
+}
